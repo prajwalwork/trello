@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trello</title>
+    <link rel="stylesheet" href="sass/stylesheets/main.css">
+</head>
+<body>
+<div class="main-content">
+    <header class="main-header">
+        <div class="header-buttons">
+            <div class="header-board">
+                <p class="board-label">Boards</p>
+            </div>
+            <div class="header-board-search">
+                <input type="text" class="search-input">
+            </div>
+        </div>
+        <div class="header-menu">
+            <ul class="menu-list">
+                <li class="menu-items">+</li>
+                <li class="menu-items">+</li>
+                <li class="menu-items">+</li>
+                <li class="menu-items">+</li>
+            </ul>
+        </div>
+    </header>
+    <div class="board-section">
+        <div class="section-heading">
+            <h3 class="header-label">Welcome Board</h3>
+        </div>
+        <div class="sections">
+            <ul class="section-list">
+                <li class="section-items">
+                    <h3 class="section-label">Basics</h3>
+                    <div class="editable-items">
+                        <p class="item-desc">Welcome to F1 Task Manager!<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Welcome to F1 Task Manager!</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">... any kind of hyperlink<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">... any kind of hyperlink</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">... or checklists<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">... or checklists</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <a href="#" class="section-item-label">Add a card...</a>
+                </li>
+                <li class="section-items">
+                    <h3 class="section-label">Intermediate</h3>
+                    <div class="editable-items">
+                        <p class="item-desc">Invite your team to this board using the Add Members button <img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Invite your team to this board using the Add Members button</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">Use color-coded labels for organization<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Use color-coded labels for organization</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">Make as many lists as you needed!<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Make as many lists as you needed!</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <a href="#" class="section-item-label">Add a card...</a>
+                </li>
+                <li class="section-items">
+                    <h3 class="section-label">Advanced</h3>
+                    <div class="editable-items">
+                        <p class="item-desc">Use as many boards as you want<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Use as many boards as you want</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">Want tips, usage examples, or API info?<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">Want tips, usage examples, or API info?</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="editable-items">
+                        <p class="item-desc">... or checklists<img src="assests/images/edit.png" alt="Edit" class="edit-icon"></p>
+                        <div class="edit-container">
+                            <textarea type="text" value="Welcome to F1 Task Manager!" class="edit-desc">... or checklists</textarea>
+                            <input type="button" class="save-btn" value="Save">
+                        </div>
+                    </div>
+                    <a href="#" class="section-item-label">Add a card...</a>
+                </li>
+                <li class="section-items section-transparent-bg">
+                    <input type="text" placeholder="Add a list..." class="add-item">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="add-comment-overlay">
+        <div class="comment-container">
+            <p class="comment-overlay-close">X</p>
+            <div class="comment-content">
+                <div class="overlay-header">
+                    <p class="head"><span class="comment-label">..any kind of hyperlink</span>...</p>
+                    <p class="head-type">in list <span class="board-type">Basics</span></p>
+                </div>
+                <div class="add-container">
+                    <div class="more-width">
+                        <p class="edit-desc-label">Edit the description...</p>
+                        <div class="comment-block">
+                            <p class="add-label">Add comment</p>
+                            <div class="comment">
+                                <div class="comment-bullet"></div>
+                                <textarea class="comment-area" placeholder="Write a comment"></textarea>
+                            </div>
+                            <input type="button" class="send-btn" value="Save">
+                        </div>
+                    </div>
+                    <div class="less-width">
+                        <p class="actions-label">Add</p>
+                        <ul class="actions-list">
+                            <li class="action-item">Members</li>
+                            <li class="action-item">Labels</li>
+                            <li class="action-item">Checklist</li>
+                            <li class="action-item">Due Date</li>
+                            <li class="action-item">Attachment</li>
+                        </ul>
+                        <p class="share-option">Share and more...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-container"></div>
+</div>
+<script src="assests/js/plugins/jquery.js"></script>
+<script src="assests/js/welcome.js"></script>
+</body>
+</html>
